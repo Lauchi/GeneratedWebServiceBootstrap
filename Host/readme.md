@@ -1,9 +1,10 @@
 ﻿## Getting started:
 
+* Change the Schema.wsb according to your domain
 * Open Package Manager Console
-* cd ./Host
+* run "cd ./Host"
 * run "dotnet wsb"
-* run "Resetdb.ps1"
+* run ".\Resetdb.ps1"
 
 Service will build now and SQlite Database is functional.
 
