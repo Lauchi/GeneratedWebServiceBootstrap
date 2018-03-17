@@ -1,0 +1,24 @@
+﻿DomainClass User {
+	Name: String
+	Age: Int32
+    Posts: [Post]
+
+	Create(Name: String, Age: Int32)
+
+	UpdateAge(Age: Int32): {
+		Age: Int32
+	}
+
+	UpdateName(Name: String): {
+		Name: String
+	}
+}
+
+DomainClass Post {
+	Title: String
+	Body: String
+
+	Create(Title: String)
+}
+
+SynchronousDomainHook SendPasswordMail on User.Create
