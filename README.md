@@ -7,6 +7,7 @@ Change the Schema.wsb according to your domain (see [GenerivWebserviceBuilder](h
 - run "cd ./Host"
 - run "dotnet wsb"
 - run ".\Resetdb.ps1"
+
 Service will build now and SQlite Database is functional.
 
 ## Troubleshooting:
