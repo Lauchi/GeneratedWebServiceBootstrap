@@ -13,7 +13,7 @@
 		Name: String
 	}
 
-	AddPost(NewPost: @Load Post) {
+	AddPost(NewPost: @Load Post): {
 		NewPostId: Guid
 	}
 }
