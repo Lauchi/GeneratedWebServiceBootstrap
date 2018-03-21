@@ -12,6 +12,10 @@
 	UpdateName(Name: String): {
 		Name: String
 	}
+
+	AddPost(NewPost: @Load Post) {
+		NewPostId: Guid
+	}
 }
 
 DomainClass Post {
