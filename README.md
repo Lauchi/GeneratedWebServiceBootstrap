@@ -11,4 +11,4 @@ Change the Schema.wsb according to your domain (see [GenericWebserviceBuilder](h
 Service will build now and SQlite Database is functional.
 
 ## Troubleshooting:
-Attention: All generated Functions still throw NotImplementedExceptions, so implement them to be able to operate.
+Attention: All generated Functions will return an error message as a reminder to implement them. I suggest you do that ;)
