@@ -5,7 +5,7 @@ This Project is a Bootstrap project using the GenericWebserviceBuilder, that has
 Change the Schema.wsb according to your domain (see [GenericWebserviceBuilder](https://github.com/Lauchi/GenericWebServiceBuilder) )
 - Open Package Manager Console
 - run "cd ./Host"
-- run "dotnet wsb"
+- run "dotnet microwave"
 - run ".\Resetdb.ps1"
 
 Service will build now and SQlite Database is functional.
