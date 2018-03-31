@@ -11,5 +11,5 @@ Change the Schema.wsb according to your domain (see [GenericWebserviceBuilder](h
 Service will build now and SQlite Database is functional.
 
 ## Troubleshooting:
-- If the nuget version does not get found, install it directly in the host project (wich will result in an error) and try restoring again. This somehow workes, still have to figure out the cli/nuget stuff.
+- If the nuget version does not get found, install Microwave directly in the host project (wich will result in an error) and try restoring again. This somehow workes, still have to figure out the cli/nuget stuff.
 - All generated Functions will return an error message as a reminder to implement them. I suggest you do that ;)
