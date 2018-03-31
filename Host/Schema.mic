@@ -14,7 +14,7 @@
 	}
 
 	AddPost(NewPost: @Load Post): {
-		NewPostId: Guid
+		PostId: Guid
 	}
 }
 
@@ -26,3 +26,9 @@ DomainClass Post {
 }
 
 SynchronousDomainHook SendPasswordMail on User.Create
+
+AsyncDomainHook SendWelcomeMail on User.Create
+
+AsyncDomainHook SendPasswordMail on User.Create
+
+AsyncDomainHook SendBirthdayMail on User.UpdateAge
