@@ -1,8 +1,8 @@
 # Overview
-This Project is a Bootstrap project using the GenericWebserviceBuilder, that has all the dependencies installed and a sample Schema.wsb File, that lets you generate your WebService. The Solution does not build without running the setup, so please keep reading.
+This Project is a Bootstrap project using the GenericWebserviceBuilder, that has all the dependencies installed and a sample Schema.mic File, that lets you generate your WebService. The Solution does not build without running the setup, so please keep reading.
 
 ## Getting started:
-Change the Schema.wsb according to your domain (see [GenericWebserviceBuilder](https://github.com/Lauchi/GenericWebServiceBuilder) )
+Change the Schema.mic in the Host Project according to your domain (see [GenericWebserviceBuilder](https://github.com/Lauchi/GenericWebServiceBuilder) )
 - Open Package Manager Console
 - run "cd ./Host"
 - run "dotnet microwave"
