@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlAdapter", "SqlAdapter\Sq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpAdapter", "HttpAdapter\HttpAdapter.csproj", "{27E5E3BF-FFCB-49E0-9C34-61D2ED355C0A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncHost", "AsyncHost\AsyncHost.csproj", "{D2862230-802B-4FFB-AD49-50E316AFF3C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{27E5E3BF-FFCB-49E0-9C34-61D2ED355C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E5E3BF-FFCB-49E0-9C34-61D2ED355C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E5E3BF-FFCB-49E0-9C34-61D2ED355C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2862230-802B-4FFB-AD49-50E316AFF3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2862230-802B-4FFB-AD49-50E316AFF3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2862230-802B-4FFB-AD49-50E316AFF3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2862230-802B-4FFB-AD49-50E316AFF3C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
