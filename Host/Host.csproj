@@ -14,7 +14,7 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
-    <DotNetCliToolReference Include="Microwave" Version="1.2.0" />
+    <DotNetCliToolReference Include="Microwave" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
